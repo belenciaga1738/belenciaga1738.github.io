@@ -1,3 +1,19 @@
 .center-text {
     text-align: center;
 }
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #4039a2;
+  color: white;
+  border-radius: 5px;
+}
