@@ -28,3 +28,21 @@
   color: white;
   border-radius: 5px;
 }
+
+.split-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.left-side img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.left-side, .right-side {
+  flex: 1;
+}
