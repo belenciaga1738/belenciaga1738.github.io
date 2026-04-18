@@ -38,11 +38,11 @@
 }
 
 .left-side img {
-  width: 100%;
-  max-width: 300px;
+  width: 250px;
+  height: auto;
   border-radius: 10px;
 }
 
-.left-side, .right-side {
+.right-side {
   flex: 1;
 }
